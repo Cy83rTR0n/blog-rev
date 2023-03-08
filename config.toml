@@ -1,3 +1,18 @@
-baseURL = "http://example.org/"
+baseURL = "https://christopherjhart.github.io/blog-hugo/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Cy83rTR0n's Blog"
+theme = "m10c"
+
+[params]
+  author = "Cy83rTR0n"
+  description = "A blog about all things technical."
+
+  [[params.social]]
+    icon = "github"
+    name = "GitHub"
+    url = "https://github.com/Cy83rTR0n"
+
+  [[params.social]]
+    icon = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/_Cy83rTR0n"
