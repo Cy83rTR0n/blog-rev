@@ -1,0 +1,49 @@
+<!doctype html><html lang=en-us><head><title>Second Post // Cy83rTR0n's Blog</title><link rel="shortcut icon" href=/favicon.ico><meta charset=utf-8><meta name=generator content="Hugo 0.111.2"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=author content="Cy83rTR0n"><meta name=description content><link rel=stylesheet href=/blog-rev/css/main.min.3c3c186cd62e563ad6e2f00a89dbee656ab912d1d46f856b5605dd0232521e2a.css><meta name=twitter:card content="summary"><meta name=twitter:title content="Second Post"><meta name=twitter:description content="Cryptography: Challenge name : Baby-Crypto Write-Up:
+1. Given code: from secret import FLAG lookup = {'A':'aaaaa', 'B':'aaaab', 'C':'aaaba', 'D':'aaabb', 'E':'aabaa', 'F':'aabab', 'G':'aabba', 'H':'aabbb', 'I':'abaaa', 'J':'abaab', 'K':'ababa', 'L':'ababb', 'M':'abbaa', 'N':'abbab', 'O':'abbba', 'P':'abbbb', 'Q':'baaaa', 'R':'baaab', 'S':'baaba', 'T':'baabb', 'U':'babaa', 'V':'babab', 'W':'babba', 'X':'babbb', 'Y':'bbaaa', 'Z':'bbaab' , '_': 'bbbbb'} def encrypt(message): cipher = '' for letter in message: if(letter != ' '): cipher += lookup[letter] else: cipher += ' ' return cipher if __name__=='__main__': cipher=encrypt(FLAG) print('Here take your cipher text: ',cipher) 2."><meta property="og:title" content="Second Post"><meta property="og:description" content="Cryptography: Challenge name : Baby-Crypto Write-Up:
+1. Given code: from secret import FLAG lookup = {'A':'aaaaa', 'B':'aaaab', 'C':'aaaba', 'D':'aaabb', 'E':'aabaa', 'F':'aabab', 'G':'aabba', 'H':'aabbb', 'I':'abaaa', 'J':'abaab', 'K':'ababa', 'L':'ababb', 'M':'abbaa', 'N':'abbab', 'O':'abbba', 'P':'abbbb', 'Q':'baaaa', 'R':'baaab', 'S':'baaba', 'T':'baabb', 'U':'babaa', 'V':'babab', 'W':'babba', 'X':'babbb', 'Y':'bbaaa', 'Z':'bbaab' , '_': 'bbbbb'} def encrypt(message): cipher = '' for letter in message: if(letter != ' '): cipher += lookup[letter] else: cipher += ' ' return cipher if __name__=='__main__': cipher=encrypt(FLAG) print('Here take your cipher text: ',cipher) 2."><meta property="og:type" content="article"><meta property="og:url" content="https://Cy83rTR0n.github.io/blog-rev/posts/second-post/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2023-03-08T13:36:15+00:00"><meta property="article:modified_time" content="2023-03-08T13:36:15+00:00"></head><body><header class=app-header><a href=https://Cy83rTR0n.github.io/blog-rev/><img class=app-header-avatar src=/blog-rev/avatar.jpg alt=Cy83rTR0n></a>
+<span class=app-header-title>Cy83rTR0n's Blog</span><p>A blog about all things technical.</p><div class=app-header-social><a href=https://github.com/Cy83rTR0n target=_blank rel="noreferrer noopener me"><svg viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg></a><a href=https://twitter.com/_Cy83rTR0n target=_blank rel="noreferrer noopener me"><svg viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter"><title>Twitter</title><path d="M23 3a10.9 10.9.0 01-3.14 1.53 4.48 4.48.0 00-7.86 3v1A10.66 10.66.0 013 4s-4 9 5 13a11.64 11.64.0 01-7 2c9 5 20 0 20-11.5a4.5 4.5.0 00-.08-.83A7.72 7.72.0 0023 3z"/></svg></a></div></header><main class=app-container><article class=post><header class=post-header><h1 class=post-title>Second Post</h1><div class=post-meta><div><svg viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar"><title>calendar</title><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Mar 8, 2023</div><div><svg viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock"><title>clock</title><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>1 min read</div></div></header><div class=post-content><h2 id=cryptography>Cryptography:</h2><h3 id=challenge-name--baby-crypto>Challenge name : Baby-Crypto</h3><p><code>Write-Up:</code></p><h4 id=1-given-code>1. Given code:</h4><pre tabindex=0><code>from secret import FLAG
+
+
+lookup = {&#39;A&#39;:&#39;aaaaa&#39;, &#39;B&#39;:&#39;aaaab&#39;, &#39;C&#39;:&#39;aaaba&#39;, &#39;D&#39;:&#39;aaabb&#39;, &#39;E&#39;:&#39;aabaa&#39;, 
+&#39;F&#39;:&#39;aabab&#39;, &#39;G&#39;:&#39;aabba&#39;, &#39;H&#39;:&#39;aabbb&#39;, &#39;I&#39;:&#39;abaaa&#39;, &#39;J&#39;:&#39;abaab&#39;, 
+&#39;K&#39;:&#39;ababa&#39;, &#39;L&#39;:&#39;ababb&#39;, &#39;M&#39;:&#39;abbaa&#39;, &#39;N&#39;:&#39;abbab&#39;, &#39;O&#39;:&#39;abbba&#39;, 
+&#39;P&#39;:&#39;abbbb&#39;, &#39;Q&#39;:&#39;baaaa&#39;, &#39;R&#39;:&#39;baaab&#39;, &#39;S&#39;:&#39;baaba&#39;, &#39;T&#39;:&#39;baabb&#39;, 
+&#39;U&#39;:&#39;babaa&#39;, &#39;V&#39;:&#39;babab&#39;, &#39;W&#39;:&#39;babba&#39;, &#39;X&#39;:&#39;babbb&#39;, &#39;Y&#39;:&#39;bbaaa&#39;, &#39;Z&#39;:&#39;bbaab&#39; , &#39;_&#39;: &#39;bbbbb&#39;} 
+
+ 
+def encrypt(message): 
+    cipher = &#39;&#39; 
+    for letter in message: 
+        if(letter != &#39; &#39;): 
+            cipher += lookup[letter] 
+        else: 
+            cipher += &#39; &#39;
+  
+    return cipher 
+   
+
+if __name__==&#39;__main__&#39;:
+	
+    cipher=encrypt(FLAG)
+
+    print(&#39;Here take your cipher text: &#39;,cipher)
+</code></pre><h3 id=2-so-the-basic-logic-game-lies-in-lookup>2. So the basic logic game lies in lookup.</h3><h3 id=python-code-to-solve-it>python code to solve it.</h3><h4 id=with-the-given-code-we-reverse-the-keys-and-values-of-the-lookup-dictionary>with the given code we reverse the keys and values of the lookup dictionary.</h4><pre tabindex=0><code>reverse = dict(map(reversed,lookup.items()))
+
+reverse = {&#39;aaaaa&#39;: &#39;A&#39;, &#39;aaaab&#39;: &#39;B&#39;, &#39;aaaba&#39;: &#39;C&#39;, &#39;aaabb&#39;: &#39;D&#39;, &#39;aabaa&#39;: &#39;E&#39;, &#39;aabab&#39;: &#39;F&#39;, 
+&#39;aabba&#39;: &#39;G&#39;, &#39;aabbb&#39;: &#39;H&#39;, &#39;abaaa&#39;: &#39;I&#39;, &#39;abaab&#39;: &#39;J&#39;, &#39;ababa&#39;: &#39;K&#39;, &#39;ababb&#39;: &#39;L&#39;, &#39;abbaa&#39;: &#39;M&#39;, 
+ &#39;abbab&#39;: &#39;N&#39;, &#39;abbba&#39;: &#39;O&#39;, &#39;abbbb&#39;: &#39;P&#39;, &#39;baaaa&#39;: &#39;Q&#39;, &#39;baaab&#39;: &#39;R&#39;, &#39;baaba&#39;: &#39;S&#39;, 
+ &#39;baabb&#39;: &#39;T&#39;, &#39;babaa&#39;: &#39;U&#39;, &#39;babab&#39;: &#39;V&#39;, &#39;babba&#39;: &#39;W&#39;, &#39;babbb&#39;: &#39;X&#39;, 
+  &#39;bbaaa&#39;: &#39;Y&#39;, &#39;bbaab&#39;: &#39;Z&#39;, &#39;bbbbb&#39;: &#39;_&#39;}
+
+
+
+str3 = list()
+for i in range(0,115,5):
+	str3.append(str1[i:i+4])
+#str3 = [&#39;babba&#39;, &#39;aabaa&#39;, &#39;ababb&#39;, &#39;aaaba&#39;, &#39;abbba&#39;, &#39;abbaa&#39;, &#39;aabaa&#39;, &#39;bbbbb&#39;, &#39;baabb&#39;, &#39;abbba&#39;, &#39;bbbbb&#39;,
+        &#39;aaaba&#39;, &#39;baaab&#39;, &#39;bbaaa&#39;, &#39;baabb&#39;, &#39;abbbb&#39;, &#39;abbba&#39;, &#39;bbbbb&#39;, &#39;babba&#39;, &#39;abbba&#39;, &#39;baaab&#39;, &#39;ababb&#39;, &#39;aaabb&#39;]
+for i in str3:
+	print(reverse[i],end = &#39;&#39;)
+
+# WELCOME_TO_CRYTPO_WORLD
+</code></pre></div><div class=post-footer></div></article></main></body></html>
