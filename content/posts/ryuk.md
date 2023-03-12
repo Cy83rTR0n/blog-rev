@@ -23,7 +23,7 @@ It is a 2 stage malware, where the first stage when initiated suddenly vanishes 
 
 ### Snapshot from VirusTotal
 
-![Untitled](Ryuk%20Malware%201c5ef46338974ae08252bd9df54da398/Untitled.png)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/25ce00c3-f8cf-4b21-8625-22f592338700/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230312%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230312T172500Z&X-Amz-Expires=86400&X-Amz-Signature=7c88a4a5921905da1ddb629a2a6bb748abef4bfa3ed9846b1c24b7ad483f4553&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
 
 ### Snapshot from HybridAnalysis
 
