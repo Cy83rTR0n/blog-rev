@@ -1,7 +1,7 @@
 ---
 title: "Ryuk"
 date: 2023-03-12T17:13:36Z
-draft: true
+draft: false
 ---
 
 # Ryuk Malware
